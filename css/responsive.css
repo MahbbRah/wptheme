@@ -1,0 +1,90 @@
+/* 
+    Simple quickstart pack for responsive web design custom css file
+       ======================================================        */
+.slicknav_menu {display: none;}
+.img-two-mobile{display: none;}
+.img-mobile{display: none;}
+.img-six-mobile{display: none;}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+
+.main-menu a {font-size: 18px;padding: 0 8px;}
+}
+
+/* tablet Layout */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+body {
+	
+}
+.social_network ul {border-right: 1px solid #e8e8e8;float: right;margin-top: -40px;margin-right: 30px;}
+.main-menu {margin: -50px 50px 0;}
+.main-menu a {font-size: 17px;padding: 0 6px;}
+
+.client-avatar {margin-top: 0;}
+.specification-area img, .invoices img, .complete-img img{display: inline-block;}
+.specification-area, .invoices, .complete-img {margin-bottom: 40px;}
+.img-2-none{display: none;}
+.img-two-mobile{display: block;}
+.img-mobile{display: block;}
+.img-none-four{display: none;}
+.img-six-mobile{display: block;}
+.img-six-none{display: none;}
+#our-services{text-align: center;}
+.content-one,.img-one img,.content-two,.img-two-mobile img,.content-three,.img-three img,.content-four,.img-mobile img,
+.content-five,.img-five img,.content-six,.img-six-mobile img{text-align: center;display: inline-block;} 
+.right-sidebar {float: inherit;margin-top: 30px;margin-bottom: 30px;}
+.main-menu-content {margin: -45px 70px;}
+.is-sticky > #header-menu {padding: 0;}
+}
+
+
+/* small mobile Layout */
+@media only screen and (max-width: 767px) {
+body {
+	
+}
+.logo h2{color: #1abc9c;margin-top: -40px;padding-left: 60px;display: block;font-weight: 300;font-family: "Roboto",sans-serif;}
+.slicknav_menu {display: block;background: #1abc9c;}
+.slicknav_menu a{font-weight: 400;}
+li > a::after {content: " ";}
+.slicknav_menutxt{color: #1abc9c;}
+.main-menu{display: none;}
+.top-bar{display: none;}
+.slogan-header h2{font-size: 35px;}
+.slogan-content h4 {font-size: 19px;font-weight: 300;line-height: 25px;}
+.heading-of-work h1 {font-size: 30px;}
+.client-avatar {margin-top: 0;}
+.specification-area img, .invoices img, .complete-img img{display: inline-block;}
+.specification-area, .invoices, .complete-img {margin-bottom: 40px;}
+.img-2-none{display: none;}
+.img-two-mobile{display: block;}
+.img-mobile{display: block;}
+.img-none-four{display: none;}
+.img-six-mobile{display: block;}
+.img-six-none{display: none;}
+
+
+.feedbackhh3 h3 {font-size: 22px;line-height: 30px;margin-top: 10px;}
+.heading-text-clients {margin-top: 0;}
+.heading-text-clients h3 {font-size: 25px;line-height: 30px;margin-bottom: 0;}
+#our-services{text-align: center;}
+.content-one,.img-one img,.content-two,.img-two-mobile img,.content-three,.img-three img,.content-four,.img-mobile img,
+.content-five,.img-five img,.content-six,.img-six-mobile img{text-align: center;display: inline-block;} 
+.footer-social-network {float: left;}
+.right-sidebar {float: inherit;margin-top: 30px;margin-bottom: 30px;}
+.main-menu-content {margin: -45px 70px;}
+.is-sticky > #header-menu {padding: 0;}
+
+}
+
+/* Large mobile Layout */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+body {
+	
+}
+
+.main-menu{display: none;}
+.top-bar{display: none;}
+.content-one,.img-one img,.content-two,.img-two-mobile img,.content-three,.img-three img,.content-four,.img-mobile img,
+.content-five,.img-five img,.content-six,.img-six-mobile img{text-align: center;display: inline-block;} 
+}
