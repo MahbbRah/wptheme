@@ -14,6 +14,4 @@ view this template: https://github.com/MahbbRah/wptheme/blob/master/full%20page%
 #Support
 If you have any problem while installing and using this theme then you can contact through this email: mahbub.meh@gmail.com
 #License
-==================================
 Mozilla Public License Version 2.0
-==================================
