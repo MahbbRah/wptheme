@@ -8,8 +8,8 @@ view this template: https://github.com/MahbbRah/wptheme/blob/master/full%20page%
 2. Faster
 3. Awesome design
 4. welcome template + Blog page
-5. and much more feature
-6. Smooth scrolling effect
+5. Smooth scrolling effect 
+6. and much more feature
 
 #Support
 If you have any problem while installing and using this theme then you can contact through this email: mahbub.meh@gmail.com
